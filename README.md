@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 # bossMachine
+
 Repository for my CodeCademy project for learning Express, etc. The lesson itself is [here](https://www.codecademy.com/paths/create-a-back-end-app-with-javascript/tracks/bapi-learn-express/modules/boss-machine-project/informationals/bapi-p4-boss-machine), however a CodeCademy account is needed to access it. A starting set of files was downloaded from the lesson.
-=======
+
 # Boss Machine
 Repository for my CodeCademy project for learning Express, etc. The lesson itself is [here](https://www.codecademy.com/paths/create-a-back-end-app-with-javascript/tracks/bapi-learn-express/modules/boss-machine-project/informationals/bapi-p4-boss-machine), however a CodeCademy account is needed to access it. A starting set of files was downloaded from the lesson.
 
@@ -156,4 +156,3 @@ about whether or not each test passed. After this list, you will see more specif
 about why each failing test failed. While they are open in a terminal window, these tests will re-run every time you save server files. If you want to quit the testing loop, use `Ctrl + C`. If you only want to run the tests once, you can run the `mocha` command in the terminal from your project root directory.
 
 As you implement functionality, run the tests to ensure you are implementing your routes and middleware correctly. The tests will additionally help you identify edge cases that you may not have anticipated when first writing your routes. You should also test the functionality on the frontend to make sure that things are working as intended. Feel free to add logging middleware to your server, it will help with debugging!
->>>>>>> Adds supplied working files from CodeCademy to the repo
