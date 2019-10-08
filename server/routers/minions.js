@@ -1,7 +1,7 @@
 // Database connection
 const db = require('../db.js');
 
-// Set-up the router
+// Set-up the routers
 const express = require('express');
 const minionRouter = express.Router();
 
@@ -17,6 +17,11 @@ const retrieveMinion = (req, res, next, id) => {
 }
 minionRouter.param('minionId', retrieveMinion);
 
+// Set-up the work router
+const workRouter = require('../routers/work.js');
+minionRouter.use('/:minionId/work', workRouter);
+
+// Main GET route
 minionRouter.get('/', (req, res, next) => {
     const minions = db.getAllFromDatabase('minions');
     res.send(minions);
